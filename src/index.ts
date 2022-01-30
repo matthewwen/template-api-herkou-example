@@ -20,7 +20,7 @@ Api.setGetRoute("/", (req: any, res: any) => {
     const example = req.query.example; // req.query["example"]
     res.send({
         status: 'development',
-        purpose: 'ECE Ambassadors',
+        purpose: 'Purdue Elmore Electrical and Computer Engineering Student Society',
         owner: 'Purdue ECE'
     });
 });
